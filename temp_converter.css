@@ -1,0 +1,77 @@
+body{
+    background-image: url(https://services.meteored.com/img/article/fim-de-semana-quente-com-as-temperaturas-a-chegarem-aos-40-c-350901-1_1280.jpg);
+    background-size: 100% 800px;
+}
+#head{
+    margin-top: 14px;
+    margin-left: 19px;
+}
+#head_box{
+    width: 500px;
+    height: 60px;
+    
+    color: rgb(11, 12, 12);
+    margin-top: 100px;
+    margin-left: 260px;
+    
+    border-radius: 8px;
+}
+#box{
+    width: 800px;
+    height: 300px;
+    border: 1px solod black;
+    background-color:  rgb(201, 179, 179);
+    margin-left: 120px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+#temp_fer{
+    width: 160px;
+    height: 40px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 96px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    font-weight: bold;
+     font-size: 18px;
+     color: black;
+
+}
+#temp_cel{
+    width: 160px;
+    height: 40px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 74px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    font-weight: bold;
+     font-size: 18px;
+     color: black;
+
+}
+#temp_kel{
+    width: 160px;
+    height: 40px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 56px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    font-weight: bold;
+     font-size: 18px;
+     color: black;
+
+}
+
+#con{
+    margin-top: 2px;
+}
+#text_head{
+    margin-top: 86px;
+    margin-left: 110px;
+    float: left;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+} 

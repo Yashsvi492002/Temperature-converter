@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="temp_converter.css">
+    <title>Document</title>
+</head>
+<body>
+   
+
+    <div id="head_box">
+   
+            <h1 id="head">TEMPERATURE CONVERTER</h1>
+        </div>
+        <div id="box">
+            <h2 id="text_head">FAHRENEIT</h2>
+          
+            <h2 id="text_head">CELSIUS</h2>
+           
+            <h2 id="text_head">KELVIN</h2>
+           <input id="temp_fer" type="text" oninput="run()" ></input>
+           <input id="temp_cel" type="text" oninput="run1()"></input>
+           <input id="temp_kel" type="text" oninput="run2()"></input>
+           
+        </div>
+    <script>
+        
+        
+        function run(){
+            var fer = document.getElementById("temp_fer").value;
+            var cel = document.getElementById("temp_cel");
+            var kel = document.getElementById("temp_kel");
+            cel.value = (parseFloat((fer-32)*5/9));
+            kel.value = ((fer - 32)*5/9 + 273.15);
+        }
+        function run1(){
+            var fer1 = document.getElementById("temp_fer");
+            var cel1 = document.getElementById("temp_cel").value;
+            var kel = document.getElementById("temp_kel");
+            fer1.value = (cel1*1.8) +32;
+            kel.value =  parseFloat((cel1*1) + (273.15));
+
+        }
+        function run2(){
+            var fer1 = document.getElementById("temp_fer");
+            var cel = document.getElementById("temp_cel");
+            var kel1 = document.getElementById("temp_kel").value;
+            fer1.value = 1.8*(kel1-273) +32;
+            cel.value =  parseFloat((kel1*1) - (273.15));
+        }
+    </script>
+</body>
+</html>
